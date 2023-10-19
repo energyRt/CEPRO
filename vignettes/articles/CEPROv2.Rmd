@@ -7,12 +7,12 @@ editor_options:
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  eval = FALSE,
+  eval = T,
   comment = "#>"
 )
 ```
 
-```{r setup}
+```{r setup, results='hide', warning=FALSE, message=FALSE}
 library(tidyverse)
 library(data.table)
 library(sf)
@@ -455,7 +455,7 @@ mod@config@horizon # check
 
 
 ### Base ren
-```{r}
+```{r, eval=FALSE}
 scen_ren_sub <- interpolate(mod, calendar_12d_24h)
 # scen_ren <- interpolate(mod)
 # scen_gms <- write_sc(
@@ -468,11 +468,9 @@ scen_ren_sub <- interpolate(mod, calendar_12d_24h)
 # scen_gms <- solve(scen_gms, wait = F)
 # scen_gms <- read(scen_gms)
 
-
-
 scen_jump <- write_sc(
   scen_ren_sub, 
-  solver = "JuMP", # see "solver_options_generic.r" file
+  # solver = "JuMP", # see "solver_options_generic.r" file
   # solver = GAMS_barrier_cbc,
   # solver = GAMS_new_maps,
   tmp.dir = file.path("tmp", "ren_test_julia"))
@@ -480,3 +478,4 @@ scen_jump <- solve(scen_jump, wait = F)
 
 ```
 
+[tbc..]

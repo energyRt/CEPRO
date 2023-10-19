@@ -1,0 +1,50 @@
+---
+output: github_document
+bibliography: references.bib
+csl: green-finance.csl
+link-citations: true
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# China Electric Power Sector Province-level Model
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This R-package is a reproduction of CEPRO model, developed in the study [@LUGOVOY2021105176] to evaluate energy transition options for China's electric power sector by the mid-century . The current version CEPRO2.0 is an improved with finer resolution of renewable energy, and is adjusted to the new developments of energyRt modeling package. 
+
+## Installation
+
+You can install the development version of CEPRO from [GitHub](https://github.com/) with:
+
+```{r, eval=F}
+# install.packages("devtools")
+devtools::install_github("energyRt/energyRt", ref = "dev")
+devtools::install_github("energyRt/CEPRO")
+
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example, eval=F}
+library(energyRt)
+library(CEPRO)
+## basic example code
+```
+
+[tbc...]
+
+## References
+

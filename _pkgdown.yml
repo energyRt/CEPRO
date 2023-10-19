@@ -1,0 +1,7 @@
+home:
+  sidebar:
+    structure: [links, license, community, citation]
+footer:
+  structure:
+    left:
+    right: built_with

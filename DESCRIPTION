@@ -1,10 +1,29 @@
 Package: CEPRO
-Title: What the Package Does (One Line, Title Case)
+Title: China Electric Power Province Level model (CEPRO) 
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+  c(person(given = "Oleg", 
+          family = "Lugovoy", 
+          email = "olugovoy@gmail.com", 
+          role = c("aut", "cre"), 
+          comment = ""), 
+   person(given = "Shuo", 
+          family = "Gao", 
+          email = "gaoshuo@cet.net.cn", 
+          role = c("aut")),
+   person(given = "Ji", 
+          family = "Gao", 
+          email = "gaoji@cet.net.cn", 
+          role = c("aut")),
+   person(given = "Kejun", 
+          family = "Jiang", 
+          email = "kjiang@eri.org.cn", 
+          role = c("ctb"))
+          )
+Maintainer: Oleg Lugovoy <olugovoy@gmail.com>
+URL: https://github.com/energyRt/CEPRO
+BugReports: https://github.com/energyRt/CEPRO/issues
+Description: 
 License: AGPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

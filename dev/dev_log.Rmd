@@ -19,6 +19,11 @@ usethis::use_agpl3_license()
 usethis::use_data_raw()
 usethis::use_article("CEPROv2", "CEPRO version 2.0")
 usethis::use_r("utils")
+usethis::use_article("CEPRO")
+usethis::use_article("Installation")
+
+pkgdown::build_site()
+pkgdown::build_news()
 
 ```
 

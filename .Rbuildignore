@@ -3,3 +3,7 @@
 ^LICENSE\.md$
 ^data-raw$
 ^vignettes/articles$
+tmp/
+solwork/
+solwork
+^README\.Rmd$
