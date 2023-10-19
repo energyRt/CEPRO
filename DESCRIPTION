@@ -18,10 +18,10 @@ Authors@R:
    person(given = "Kejun", 
           family = "Jiang", 
           email = "kjiang@eri.org.cn", 
-          role = c("ctb"))
+          role = c("aut"))
           )
 Maintainer: Oleg Lugovoy <olugovoy@gmail.com>
-URL: https://github.com/energyRt/CEPRO
+URL: https://github.com/energyRt/CEPRO, https://energyrt.github.io/CEPRO/
 BugReports: https://github.com/energyRt/CEPRO/issues
 Description: 
 License: AGPL (>= 3)

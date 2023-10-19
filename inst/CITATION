@@ -1,0 +1,29 @@
+bibentry(
+  title = {"CEPRO: China Electric Power Province Level model (CEPRO)"},
+  author = {"Oleg Lugovoy and Shuo Gao and Ji Gao and Kejun Jiang"},
+  year = {2023},
+  note = {"https://github.com/energyRt/CEPRO, https://energyrt.github.io/CEPRO/"},
+  bibtype  = "Manual"
+)
+
+bibentry(
+  title = {"Feasibility study of China's electric power sector transition to zero emissions by 2050"},
+  author = {"Oleg Lugovoy and Shuo Gao and Ji Gao and Kejun Jiang"},
+  journal = {"Energy Economics"},
+  volume = {96},
+  pages = {105176},
+  year = {2021},
+  issn = {0140-9883},
+  doi = {"https://doi.org/10.1016/j.eneco.2021.105176"},
+  url = {"https://www.sciencedirect.com/science/article/pii/S0140988321000815"},
+  bibtype  = "Article"
+)
+
+bibentry(
+  title = "energyRt: Energy systems modeling toolbox in R, development version",
+  author = "Oleg Lugovoy and Vladimir Potashnikov",
+  year = {2022},
+  note = "R package version 0.09.07-dev",
+  url = "https://github.com/energyRt/energyRt",
+  bibtype  = "Manual"
+)
